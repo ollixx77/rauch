@@ -1,0 +1,41 @@
+sep=;
+;;;;Partlist exported at 25.03.2026 08:08
+;;;;Alle Keramik-Kondensatoren kleiner gleich 1nF in 50V C0G/NP0 5%% ausführen
+;;;;Alle Keramik-Kondensatoren größer als 1nF in 50V X7R 10%% ausführen
+;;;;Alle Widerstände in 1%% Genauigkeit und TK100 oder besser
+
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"11";"100n";"C-EU0603";"CAPC0603";"C2, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14";"CAPACITOR, European symbol";"";
+"10";"10K";"R-EU_0603";"RESC0603";"R11, R12, R13, R14, R15, R26, R27, R28, R29, R30";"RESISTOR, European symbol";"";
+"1";"10µ/4A - IHLP2525CZER100M11";"L-EU0707";"INDM0707";"L1";"INDUCTOR, European symbol";"";
+"1";"1M";"R-EU_0603";"RESC0603";"R2";"RESISTOR, European symbol";"";
+"1";"1N4448";"DIODE-SOD323";"SOD323";"D3";"";"";
+"1";"1k";"R-EU_0603";"RESC0603";"R7";"RESISTOR, European symbol";"";
+"2";"22µ/6,3V";"C-EU1206";"CAPC1206";"C3, C4";"CAPACITOR, European symbol";"";
+"1";"36k";"R-EU_0603";"RESC0603";"R1";"RESISTOR, European symbol";"";
+"1";"4,7k";"R-EU_0603";"RESC0603";"R3";"RESISTOR, European symbol";"";
+"1";"4,7µ/50V";"C-EU1210";"CAPC1210";"C1";"CAPACITOR, European symbol";"";
+"10";"4.7k";"R-EU_0603";"RESC0603";"R31, R32, R33, R34, R35, R36, R37, R38, R39, R40";"RESISTOR, European symbol";"";
+"4";"470R";"R-EU_0603";"RESC0603";"R4, R8, R9, R10";"RESISTOR, European symbol";"";
+"10";"68k";"R-EU_0603";"RESC0603";"R16, R17, R18, R19, R20, R21, R22, R23, R24, R25";"RESISTOR, European symbol";"";
+"11";"BC547";"TRANSISTOR-NPN-SOT23";"SOT23";"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11";"";"";
+"1";"G5Q-14-EU DC12 (TY)";"RELAIS1-OMRON-G5Q";"OMRON-G5Q";"K1";"";"";
+"11";"LED gelb";"DIODE-LED-C1608";"LEDC1608";"D4, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16";"";"";
+"1";"LED grün";"DIODE-LED-C1608";"LEDC1608";"D6";"";"";
+"1";"LED rot";"DIODE-LED-C1608";"LEDC1608";"D5";"";"";
+"1";"LMR51430YFDDCR";"LMR51430";"SOT23-6";"IC1";"LMR51430 SIMPLE SWITCHER® 4.5-V to 36-V, 3-A, Synchronous Buck Converter in a  SOT-23 Package";"";
+"1";"MCV1,5/10-G-3,81";"MCV1,5/10-G-3,81";"MCV1,5/10-G-3,81";"X4";"Phoenix Contact";"";
+"1";"MCV1,5/4-G-3,81";"MCV1,5/4-G-3,81";"MCV1,5/4-G-3,81";"X3";"Phoenix Contact";"";
+"1";"MOLEX-6410/4";"MOLEX-6410/4";"MOLEX-6410/4";"X5";"Molex Serie 6410";"";
+"4";"MOUNT-HOLE-3.2";"MOUNT-HOLE-3.2";"MOUNT-HOLE-3,2";"H1, H2, H3, H4";"Mounting Hole";"";
+"1";"MSTBVA2,5/3-G-5,08";"MSTBVA2,5/3-G-5,08";"MSTBVA2,5/3-G-5,08";"X2";"Phoenix Contact";"";
+"1";"MSTBVA2,5/4-G-5,08 - 1755752";"MSTBVA2,5/4-G-5,08";"MSTBVA2,5/4-G-5,08";"X1";"Phoenix Contact";"";
+"2";"PAD-FIDU-R200";"PAD-FIDU-R200";"FIDU_RUND-2MM";"DOKU1, DOKU2";"Fiducial = Passermarke";"";
+"1";"SCHURTER_LSH";"SCHURTER_LSH";"SHURTER_LSH";"S1";"";"";
+"1";"SM15T39A";"DIODE-TVS-UNI-SMC";"DIOM-SMC";"D2";"";"";
+"1";"SS16";"DIODE-SCHOTTKY-SMA";"DIOM-SMA";"D1";"";"";
+"1";"STM NUCLEO-G031K8";"STM32-NUCLEO32";"NUCLEO32";"M1";"Arduino Nano plug in module with SMT32 Nucleo-32 signal names";"";
+"1";"STM32_Rauch_001";"TEXT-50-TOP";"DOKU-50-TOP";"DOKU4";"Textfeld für Dokumentation";"";
+"1";"TM1637";"TM1637";"TM1637";"DIS1";"TM1637";"";
+"2";"n.b.";"R-EU_0603";"RESC0603";"R5, R6";"RESISTOR, European symbol";"";
+"1";"open";"CON-J2D";"CON-SOLDERJUMPER";"J1";"Jumper 2pol.";"";

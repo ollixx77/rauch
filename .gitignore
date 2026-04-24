@@ -1,3 +1,6 @@
+# MAC shit
+.DS_Store
+
 # Prerequisites
 *.d
 
@@ -72,3 +75,7 @@ Release/
 # Build artifacts
 build/
 cmake-build-*/
+
+# Eagle Files
+*.epf
+*.?#?
