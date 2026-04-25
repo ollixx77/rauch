@@ -170,14 +170,11 @@ tm1637_err_t tm1637_raw(tm1637_t *handle, const uint8_t *data)
  * @return tm1637_err_t Error code indicating success or failure.
  */
 
-//   ---     a
-//  |   |  f   b
-//   ---     g
-//  |   |  e   c       : 0b 01234567
-//   ---     d         : 0b abcdefg7
-//                          01100000
-// Bit: 0=a(oben), 1=b(rechts oben), 2=c(rechts unten),
-//      3=d(unten), 4=e(links unten), 5=f(links oben), 6=g(mitte), 7=Punkt
+//   ---     7
+//  |   |  2   6
+//   ---     1
+//  |   |  3   5
+//   ---     4         : 0b 0123 4567
 //
 
 tm1637_err_t tm1637_str(tm1637_t *handle, const char *str)
@@ -305,16 +302,16 @@ tm1637_err_t tm1637_str(tm1637_t *handle, const char *str)
       buff[i] = 0x6E;
       break;
     case '_':
-      buff[i] = 0b00001000; // 0x08
+      buff[i] = 0b00001000;
       break;
     case '^':
-      buff[i] = 0b00000001; // 0x01
+      buff[i] = 0b00000001;
       break;
     case '[':
-      buff[i] = 0b00001100;
+      buff[i] = 0b00110000;
       break;
     case ']':
-      buff[i] = 0b01100000;
+      buff[i] = 0b00000110;
       break;
     case ' ':
       buff[i] = 0x00;

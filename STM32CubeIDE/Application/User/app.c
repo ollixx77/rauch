@@ -107,6 +107,18 @@ void app_init(void)
 	tm1637_str(&seg, "8888");
 	HAL_Delay(1000);
     const uint16_t demo = 50;
+/*  for (uint16_t i = 0; i< 10; i++) {
+        tm1637_str(&seg, "^   "); HAL_Delay(demo);
+        tm1637_str(&seg, " ^  "); HAL_Delay(demo);
+        tm1637_str(&seg, "  ^ "); HAL_Delay(demo);
+        tm1637_str(&seg, "   ^"); HAL_Delay(demo);
+        tm1637_str(&seg, "   ]"); HAL_Delay(demo);
+        tm1637_str(&seg, "   _"); HAL_Delay(demo);
+        tm1637_str(&seg, "  _ "); HAL_Delay(demo);
+        tm1637_str(&seg, " _  "); HAL_Delay(demo);
+        tm1637_str(&seg, "_   "); HAL_Delay(demo);
+        tm1637_str(&seg, "[   "); HAL_Delay(demo);
+    } */
     for (uint16_t i = 0; i< 3; i++) {
         tm1637_str(&seg, "-   "); HAL_Delay(demo);
         tm1637_str(&seg, " -  "); HAL_Delay(demo);
