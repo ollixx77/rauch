@@ -45,7 +45,7 @@ void RebuildList(const uint8_t *alarm_list)
 
 
 void int_to_str(uint8_t x, char *buf) {
-    buf[0] = (status == SILENT ? 'S' : 'E');
+    buf[0] = (status == SILENT ? 'L' : 'A');
     buf[1] = ' ';
     buf[2] = ' ';
     buf[3] = '0' + (x % 10);	// x = 0..9
